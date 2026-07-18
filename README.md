@@ -1,18 +1,17 @@
-# 🃏 MiskinVuln
-
 <div align="center">
 
-# 🛡️ MiskinVuln
+# 🃏 MiskinVuln
 
 ### 💀 Intentionally Vulnerable Flask Web Application
 
-🇲🇾 **Made in Malaysia** 🇲🇾
+🇲🇾 Proudly Made in Malaysia 🇲🇾
 
-💻 Built for learning • 🔐 Web Security • 🧪 Ethical Hacking Lab
+*Learn • Practice • Improve*
 
----
-
-*"Server miskin. Vulnerability kaya."* 😭
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Flask](https://img.shields.io/badge/Flask-Latest-black)
+![SQLite](https://img.shields.io/badge/SQLite-Database-blue)
+![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20Termux-green)
 
 </div>
 
@@ -20,9 +19,9 @@
 
 # 📖 About
 
-MiskinVuln is an open-source educational web application created to help developers and cybersecurity learners understand common web vulnerabilities in a safe local environment.
+MiskinVuln is an intentionally vulnerable web application built using **Flask** for learning web application security.
 
-Every vulnerability included in this project is intentionally designed for learning, practice, and secure coding awareness.
+The project demonstrates common web vulnerabilities in a controlled local environment so developers, students, and cybersecurity learners can understand insecure coding practices and learn how to mitigate them.
 
 ---
 
@@ -31,43 +30,54 @@ Every vulnerability included in this project is intentionally designed for learn
 - 💉 SQL Injection
 - 🕷️ Cross-Site Scripting (XSS)
 - 🔑 Broken Authentication
-- 📂 Insecure File Upload
 - 🪪 IDOR
+- 📂 File Upload Vulnerabilities
 - 🔄 CSRF
 - ⚙️ Security Misconfiguration
-- 🧪 More modules coming soon...
+- 🚧 More modules will be added
 
 ---
 
 # 🛠️ Built With
 
-🐍 Python
-
-⚡ Flask
-
-🗄️ SQLite
-
-🌐 HTML
-
-🎨 CSS
-
-📜 JavaScript
+| Technology | Usage |
+|------------|-------|
+| 🐍 Python | Backend |
+| ⚡ Flask | Web Framework |
+| 🗄️ SQLite | Database |
+| 🌐 HTML | Frontend |
+| 🎨 CSS | Styling |
+| 📜 JavaScript | Client-side |
 
 ---
 
-# 🚀 Installation
+# 📥 Installation
+
+Clone repository
 
 ```bash
 git clone https://github.com/FizalJoker888Slot/MiskinVuln.git
+```
 
+Go to project
+
+```bash
 cd MiskinVuln
+```
 
+Install requirements
+
+```bash
 pip install -r requirements.txt
+```
 
+Run application
+
+```bash
 python app.py
 ```
 
-Open your browser:
+Open browser
 
 ```
 http://127.0.0.1:5000
@@ -75,34 +85,59 @@ http://127.0.0.1:5000
 
 ---
 
-# ⚠️ Warning
+# 📂 Project Structure
 
-🚨 This application is intentionally vulnerable.
+```
+MiskinVuln/
+│
+├── app.py
+├── requirements.txt
+├── README.md
+├── .gitignore
+├── templates/
+├── static/
+├── database/
+├── uploads/
+└── docs/
+```
 
-Use it only for educational purposes in your own local lab.
+---
 
-❌ Do not deploy it to the public Internet.
+# 🎯 Goals
 
-❌ Do not use it against systems without permission.
+- Learn web security
+- Practice ethical hacking in a local lab
+- Understand common vulnerabilities
+- Learn secure coding practices
+
+---
+
+# ⚠️ Disclaimer
+
+This project is intentionally vulnerable.
+
+It is designed **only for educational purposes** and should be used in a local or isolated lab environment.
+
+Do **NOT** deploy it on a public server or use it against systems without explicit authorization.
 
 ---
 
 # 👨‍💻 Developer
 
-### 🃏 FizalJoker888Slot 🇲🇾
+**FizalJoker888Slot 🇲🇾**
 
 💻 Programmer
 
 🔐 Security Learner
 
-🧪 Building projects for learning and experimentation.
+🧪 Building educational cybersecurity projects.
 
 ---
 
 <div align="center">
 
-⭐ Thanks for visiting MiskinVuln ⭐
+⭐ If you like this project, consider giving it a Star.
 
-🇲🇾 Proudly Built in Malaysia 🇲🇾
+Made with ☕ and curiosity in Malaysia 🇲🇾
 
 </div>
