@@ -1,83 +1,56 @@
-<div align="center">
+# 📋 Requirements
 
-# 🃏 MiskinVuln
+Before installing MiskinVuln, make sure you have:
 
-### 💀 Intentionally Vulnerable Flask Web Application
+- 🐍 Python 3.10 or newer
+- 📦 pip
+- 🌐 Git
 
-🇲🇾 Proudly Made in Malaysia 🇲🇾
+Supported platforms:
 
-*Learn • Practice • Improve*
-
-![Python](https://img.shields.io/badge/Python-3.x-blue)
-![Flask](https://img.shields.io/badge/Flask-Latest-black)
-![SQLite](https://img.shields.io/badge/SQLite-Database-blue)
-![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20Termux-green)
-
-</div>
-
----
-
-# 📖 About
-
-MiskinVuln is an intentionally vulnerable web application built using **Flask** for learning web application security.
-
-The project demonstrates common web vulnerabilities in a controlled local environment so developers, students, and cybersecurity learners can understand insecure coding practices and learn how to mitigate them.
-
----
-
-# ✨ Features
-
-- 💉 SQL Injection
-- 🕷️ Cross-Site Scripting (XSS)
-- 🔑 Broken Authentication
-- 🪪 IDOR
-- 📂 File Upload Vulnerabilities
-- 🔄 CSRF
-- ⚙️ Security Misconfiguration
-- 🚧 More modules will be added
-
----
-
-# 🛠️ Built With
-
-| Technology | Usage |
-|------------|-------|
-| 🐍 Python | Backend |
-| ⚡ Flask | Web Framework |
-| 🗄️ SQLite | Database |
-| 🌐 HTML | Frontend |
-| 🎨 CSS | Styling |
-| 📜 JavaScript | Client-side |
+- 🐉 Kali Linux
+- 🦜 Parrot Security OS
+- 🐧 Ubuntu / Debian
+- 🎩 Fedora
+- 🍎 macOS
+- 🪟 Windows
+- 📱 Termux (Android)
 
 ---
 
 # 📥 Installation
 
-Clone repository
+### 1️⃣ Clone Repository
 
 ```bash
 git clone https://github.com/FizalJoker888Slot/MiskinVuln.git
 ```
 
-Go to project
+### 2️⃣ Enter Project Directory
 
 ```bash
 cd MiskinVuln
 ```
 
-Install requirements
+### 3️⃣ Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Run application
+### 4️⃣ Start Application
 
 ```bash
 python app.py
 ```
 
-Open browser
+or
+
+```bash
+python3 app.py
+```
+
+### 5️⃣ Open Browser
 
 ```
 http://127.0.0.1:5000
@@ -85,59 +58,45 @@ http://127.0.0.1:5000
 
 ---
 
-# 📂 Project Structure
+# 📱 Termux Installation
 
+```bash
+pkg update && pkg upgrade
+
+pkg install git python
+
+git clone https://github.com/FizalJoker888Slot/MiskinVuln.git
+
+cd MiskinVuln
+
+pip install -r requirements.txt
+
+python app.py
 ```
-MiskinVuln/
-│
-├── app.py
-├── requirements.txt
-├── README.md
-├── .gitignore
-├── templates/
-├── static/
-├── database/
-├── uploads/
-└── docs/
+
+---
+
+# 🐉 Kali Linux / 🦜 Parrot OS
+
+```bash
+sudo apt update
+
+sudo apt install git python3 python3-pip
+
+git clone https://github.com/FizalJoker888Slot/MiskinVuln.git
+
+cd MiskinVuln
+
+pip3 install -r requirements.txt
+
+python3 app.py
 ```
 
 ---
 
-# 🎯 Goals
+# ⚠️ Notes
 
-- Learn web security
-- Practice ethical hacking in a local lab
-- Understand common vulnerabilities
-- Learn secure coding practices
-
----
-
-# ⚠️ Disclaimer
-
-This project is intentionally vulnerable.
-
-It is designed **only for educational purposes** and should be used in a local or isolated lab environment.
-
-Do **NOT** deploy it on a public server or use it against systems without explicit authorization.
-
----
-
-# 👨‍💻 Developer
-
-**FizalJoker888Slot 🇲🇾**
-
-💻 Programmer
-
-🔐 Security Learner
-
-🧪 Building educational cybersecurity projects.
-
----
-
-<div align="center">
-
-⭐ If you like this project, consider giving it a Star.
-
-Made with ☕ and curiosity in Malaysia 🇲🇾
-
-</div>
+- 🧪 Designed for local learning only.
+- 🌐 Default address: `http://127.0.0.1:5000`
+- ❌ Do not expose this application to the public Internet.
+- 🔐 Use only in your own lab environment.
